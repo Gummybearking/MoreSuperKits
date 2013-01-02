@@ -1,0 +1,50 @@
+SampleKit:
+  items:
+    - Leather_Helmet:1
+    - Iron_Chestplate:1 Protection:1
+    - Leather_Leggings:1
+    - Leather_Boots:1
+    - Iron_Sword:1 Sharpness:1
+    - Bow:1
+    - Arrow:128
+  effects:
+    - Strength:1:60
+  clearInventory: false
+  infiniteEffects: false
+  timeout:
+    duration: 60
+    global: false
+  permissions:
+    ignoreCommandPerms: true
+    ignoreSignPerms: true
+  inheritance:
+    parent: none
+    requireParentPerms: false
+    inheritParentPerms: true
+  vault:
+    permissions:
+      - samplekit.user
+    prefix: 'The pathetic &2'
+    suffix: '&f, weilder of SampleKit'
+AdvancedKit:
+  items:
+    - Diamond_Sword: Sharpness:2
+  effects:
+    - Resistance:1
+  clearInventory: false
+  infiniteEffects: true
+  timeout:
+    duration: 180
+    global: false
+  permissions:
+    ignoreCommandPerms: false
+    ignoreSignPerms: false
+  inheritance:
+    parent: SampleKit
+    requireParentPerms: false
+    inheritParentPerms: true
+  vault:
+    permissions:
+      - advancedkit.user
+    prefix: 'The mighty &4'
+    suffix: '&f, weilder of AdvancedKit'
